@@ -98,6 +98,40 @@
 
 \subsubsection{Fiches descriptives des cas d'utilisations}
 
+Cas d'utilisation ``Gérer stock''
+
+\newpage
+
+Cas d'utilisation ``Gérer fournisseur''
+
+\newpage
+
+Cas d'utilisation ``Imprimer commande''
+
+\newpage
+
+Cas d'utilisation ``Acheter un produit''
+
+\newpage
+
+Cas d'utilisation ``Retourner un produit''
+
+\newpage
+
+Cas d'utilisation ``Ajouter un article''
+
+\newpage
+
+Cas d'utilisation ``Retourner un article''
+
+\newpage
+
+Cas d'utilisation ``Faire payer''
+
+\newpage
+
+Cas d'utilisation ``
+
 \subsubsection{Schéma de navigation général}
 
 \subsection{Etape 2 : Étude du modèle statique}
