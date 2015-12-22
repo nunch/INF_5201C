@@ -1,8 +1,8 @@
-import java.util.Vector;
+import java.util.LinkedList;
 
 public class Entrepot {
-	public Vector<Détaillant> _unnamed_Détaillant_ = new Vector<Détaillant>();
-	public Vector<Article> _unnamed_Article_ = new Vector<Article>();
+	public LinkedList<Détaillant> aDétaillant = new LinkedList<Détaillant>();
+	public LinkedList<Article> aArticle = new LinkedList<Article>();
 
 	public void MiseAJourStock() {
 		throw new UnsupportedOperationException();

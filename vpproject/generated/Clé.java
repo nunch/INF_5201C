@@ -1,3 +1,3 @@
 public class Clé {
-	public Caisse _unnamed_Caisse_;
+	public Caisse aCaisse;
 }

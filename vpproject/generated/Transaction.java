@@ -1,5 +1,5 @@
 public class Transaction {
-	public Caissier _unnamed_Caissier_;
-	public Paiement _unnamed_Paiement_;
-	public Ticket _unnamed_Ticket_;
+	public Caissier aCaissier;
+	public Paiement aPaiement;
+	public Ticket aTicket;
 }

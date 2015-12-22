@@ -1,14 +1,14 @@
-import java.util.Vector;
+import java.util.LinkedList;
 
 public class Article {
-	private Object _nom;
-	private Object _codebar;
-	private Object _stock;
-	private Object _seuil;
-	private Object _prix;
-	private Object _poids;
-	public Entrepot _unnamed_Entrepot_;
-	public Rayon _unnamed_Rayon_;
-	public Vector<Ticket> _unnamed_Ticket_ = new Vector<Ticket>();
-	public Commande _unnamed_Commande_;
+	private String aNom;
+	private String aCodebar;
+	private String aStock;
+	private String aSeuil;
+	private String aPrix;
+	private String aPoids;
+	public Entrepot aEntrepot;
+	public Rayon aRayon;
+	public LinkedList<Ticket> aTicket = new LinkedList<Ticket>();
+	public Commande aCommande;
 }

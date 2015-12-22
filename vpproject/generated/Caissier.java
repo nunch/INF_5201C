@@ -1,8 +1,8 @@
 public class Caissier extends Employé {
-	public Machine _unnamed_Machine_;
-	public Transaction _unnamed_Transaction_;
+	public Machine aMachine;
+	public Transaction aTransaction;
 
-	public void AjouterArticle(Object aArticle) {
+	public void AjouterArticle(String pArticle) {
 		throw new UnsupportedOperationException();
 	}
 
@@ -18,7 +18,7 @@ public class Caissier extends Employé {
 		throw new UnsupportedOperationException();
 	}
 
-	public void EnleverArticle(Object aId) {
+	public void EnleverArticle(String pId) {
 		throw new UnsupportedOperationException();
 	}
 }

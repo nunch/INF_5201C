@@ -1,6 +1,6 @@
-import java.util.Vector;
+import java.util.LinkedList;
 
 public class Ticket {
-	public Transaction _unnamed_Transaction_;
-	public Vector<Article> _unnamed_Article_ = new Vector<Article>();
+	public Transaction aTransaction;
+	public LinkedList<Article> aArticle = new LinkedList<Article>();
 }

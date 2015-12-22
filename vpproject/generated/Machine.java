@@ -1,15 +1,15 @@
-import java.util.Vector;
+import java.util.LinkedList;
 
 public class Machine {
-	public Caissier _unnamed_Caissier_;
-	public Vector<Session> _unnamed_Session_ = new Vector<Session>();
-	public Caisse _unnamed_Caisse_;
+	public Caissier aCaissier;
+	public LinkedList<Session> aSession = new LinkedList<Session>();
+	public Caisse aCaisse;
 
-	public void logIn(Object aSession) {
+	public void logIn(String pSession) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void ouvrirCaisse(Object aClé) {
+	public void ouvrirCaisse(String pClé) {
 		throw new UnsupportedOperationException();
 	}
 }

@@ -1,4 +1,4 @@
 public class Caisse {
-	public Machine _unnamed_Machine_;
-	public Clé _unnamed_Clé_;
+	public Machine aMachine;
+	public Clé aClé;
 }

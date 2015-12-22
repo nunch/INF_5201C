@@ -1,7 +1,7 @@
 public class Fournisseur extends Personne {
-	private Object _téléphone;
-	private Object _nom;
-	private Object _adresse;
-	private Object _codepostal;
-	public Commande _unnamed_Commande_;
+	private String aTéléphone;
+	private String aNom;
+	private String aDresse;
+	private String aCodepostal;
+	public Commande aCommande;
 }

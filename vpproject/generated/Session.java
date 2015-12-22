@@ -1,5 +1,5 @@
-import java.util.Vector;
+import java.util.LinkedList;
 
 public class Session {
-	public Vector<Machine> _unnamed_Machine_ = new Vector<Machine>();
+	public LinkedList<Machine> aMachine = new LinkedList<Machine>();
 }

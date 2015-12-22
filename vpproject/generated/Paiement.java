@@ -1,3 +1,3 @@
 public class Paiement {
-	public Transaction _unnamed_Transaction_;
+	public Transaction aTransaction;
 }

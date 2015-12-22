@@ -1,5 +1,5 @@
-import java.util.Vector;
+import java.util.LinkedList;
 
 public class Rayon {
-	public Vector<Article> _unnamed_Article_ = new Vector<Article>();
+	public LinkedList<Article> aArticle = new LinkedList<Article>();
 }
