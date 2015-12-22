@@ -17,6 +17,7 @@
 			<include name="Carte_bleue.java"/>
 			<include name="Paiement.java"/>
 			<include name="Client.java"/>
+			<include name="SystemStock.java"/>
 			<include name="Rayon.java"/>
 			<include name="Article.java"/>
 			<include name="Entrepot.java"/>

@@ -1,6 +1,7 @@
 import java.util.LinkedList;
 
 public class Caisse {
+	private String aCtualSession;
 	public Caissier aCaissier;
 	public LinkedList<Session> aSession = new LinkedList<Session>();
 	public Cle aCle;

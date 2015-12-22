@@ -5,4 +5,5 @@ public class Article {
 	private String aSeuil;
 	private String aPrix;
 	private String aPoids;
+	private String aFournisseur;
 }
