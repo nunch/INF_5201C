@@ -12,7 +12,7 @@
 	<target depends="init" name="build">
 		<javac srcdir="." destdir="classes" source="1.5" target="1.5" fork="yes">
 			<classpath refid="build.classpath"/>
-			<include name="Clé.java"/>
+			<include name="Cle.java"/>
 			<include name="Caisse.java"/>
 			<include name="Session.java"/>
 			<include name="Machine.java"/>
@@ -20,14 +20,14 @@
 			<include name="Rayon.java"/>
 			<include name="Article.java"/>
 			<include name="Entrepot.java"/>
-			<include name="Détaillant.java"/>
+			<include name="Detaillant.java"/>
 			<include name="Commande.java"/>
 			<include name="Fournisseur.java"/>
 			<include name="Personne.java"/>
 			<include name="Employé.java"/>
 			<include name="Caissier.java"/>
-			<include name="Espèce.java"/>
-			<include name="Chèque.java"/>
+			<include name="Espece.java"/>
+			<include name="Cheque.java"/>
 			<include name="Carte_bleue.java"/>
 			<include name="Paiement.java"/>
 			<include name="Transaction.java"/>

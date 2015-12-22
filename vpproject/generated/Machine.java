@@ -9,7 +9,7 @@ public class Machine {
 		throw new UnsupportedOperationException();
 	}
 
-	public void ouvrirCaisse(String pClé) {
+	public void ouvrirCaisse(String pCle) {
 		throw new UnsupportedOperationException();
 	}
 }

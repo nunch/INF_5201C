@@ -14,7 +14,7 @@ public class Caissier extends Employé {
 		throw new UnsupportedOperationException();
 	}
 
-	public void démarerTransaction() {
+	public void demarerTransaction() {
 		throw new UnsupportedOperationException();
 	}
 

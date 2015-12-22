@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 public class Entrepot {
-	public LinkedList<Détaillant> aDétaillant = new LinkedList<Détaillant>();
+	public LinkedList<Detaillant> aDetaillant = new LinkedList<Detaillant>();
 	public LinkedList<Article> aArticle = new LinkedList<Article>();
 
 	public void MiseAJourStock() {

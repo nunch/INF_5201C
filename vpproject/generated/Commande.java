@@ -1,5 +1,5 @@
 public class Commande {
-	public Détaillant aDétaillant;
+	public Detaillant aDetaillant;
 	public Article aArticle;
 	public Fournisseur aFournisseur;
 }
