@@ -1,4 +1,4 @@
-public class Caissier extends Employé {
+public class Caissier extends Employe {
 	public Machine aMachine;
 	public Transaction aTransaction;
 

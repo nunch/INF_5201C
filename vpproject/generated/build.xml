@@ -24,7 +24,7 @@
 			<include name="Commande.java"/>
 			<include name="Fournisseur.java"/>
 			<include name="Personne.java"/>
-			<include name="Employé.java"/>
+			<include name="Employe.java"/>
 			<include name="Caissier.java"/>
 			<include name="Espece.java"/>
 			<include name="Cheque.java"/>

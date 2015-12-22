@@ -1,4 +1,4 @@
-public class Detaillant extends Employé {
+public class Detaillant extends Employe {
 	public Entrepot aEntrepot;
 	public Commande aCommande;
 
