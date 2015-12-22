@@ -1,5 +1,6 @@
+import java.util.LinkedList;
+
 public class Commande {
-	public Detaillant aDetaillant;
-	public Article aArticle;
 	public Fournisseur aFournisseur;
+	public LinkedList<Article> aArticle = new LinkedList<Article>();
 }

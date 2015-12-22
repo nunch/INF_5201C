@@ -16,10 +16,6 @@
 			<include name="Cheque.java"/>
 			<include name="Carte_bleue.java"/>
 			<include name="Paiement.java"/>
-			<include name="Cle.java"/>
-			<include name="Caisse.java"/>
-			<include name="Session.java"/>
-			<include name="Machine.java"/>
 			<include name="Client.java"/>
 			<include name="Rayon.java"/>
 			<include name="Article.java"/>
@@ -29,6 +25,10 @@
 			<include name="Fournisseur.java"/>
 			<include name="Personne.java"/>
 			<include name="Employe.java"/>
+			<include name="Cle.java"/>
+			<include name="Caisse.java"/>
+			<include name="Session.java"/>
+			<include name="Machine.java"/>
 			<include name="Caissier.java"/>
 			<include name="Transaction.java"/>
 			<include name="Ticket.java"/>

@@ -1,5 +1,4 @@
 public class Caissier extends Employe {
-	public Machine aMachine;
 	public Transaction aTransaction;
 
 	public void AjouterArticle(String pArticle) {

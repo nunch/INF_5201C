@@ -1,7 +1,6 @@
 import java.util.LinkedList;
 
 public class Machine {
-	public Caissier aCaissier;
 	public LinkedList<Session> aSession = new LinkedList<Session>();
 	public Caisse aCaisse;
 
