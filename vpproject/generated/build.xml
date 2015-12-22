@@ -26,9 +26,8 @@
 			<include name="Personne.java"/>
 			<include name="Employe.java"/>
 			<include name="Cle.java"/>
-			<include name="Caisse.java"/>
 			<include name="Session.java"/>
-			<include name="Machine.java"/>
+			<include name="Caisse.java"/>
 			<include name="Caissier.java"/>
 			<include name="Transaction.java"/>
 			<include name="Ticket.java"/>
