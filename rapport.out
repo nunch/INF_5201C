@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Phase d'analyse}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Etape 1: Capture des exigences fonctionnelles}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Diagramme des cas d'utilisations}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Fiches descriptives des cas d'utilisations}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Sch\351ma de navigation g\351n\351ral}{subsection.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.2}{Etape 2 : \311tude du mod\350le statique}{section.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Premi\350re \351bauche du diagramme de classe}{subsection.1.2}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Dictionnaire des donn\351es}{subsection.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.3}{Etape 3 : \311tude du mod\350le dynamique}{section.1}% 9
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Cas d'utilisations d\351taill\351s}{subsection.1.3}% 10
+\BOOKMARK [1][-]{section.2}{Synth\350se de la phase d'analyse}{}% 11
+\BOOKMARK [1][-]{section.3}{Phase de conception}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Etape 1 : Conception g\351n\351rale}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.1}{R\351partition en paquetages}{subsection.3.1}% 14
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Choix technologique}{subsection.3.1}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Diagramme de composant}{subsection.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Diagramme de d\351ploiement}{subsection.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Etape 2 : Conception d\351taill\351e}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Diagramme de classe technique}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Aspect MVC}{subsection.3.2}% 20

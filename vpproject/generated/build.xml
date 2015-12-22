@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build">
+	<path id="build.classpath">
+		<pathelement location="classes"/>
+	</path>
+	<target name="init">
+		<mkdir dir="classes"/>
+	</target>
+	<target name="clean">
+		<delete dir="classes"/>
+	</target>
+	<target depends="init" name="build">
+		<javac srcdir="." destdir="classes" source="1.5" target="1.5" fork="yes">
+			<classpath refid="build.classpath"/>
+			<include name="Clé.java"/>
+			<include name="Caisse.java"/>
+			<include name="Session.java"/>
+			<include name="Machine.java"/>
+			<include name="Client.java"/>
+			<include name="Rayon.java"/>
+			<include name="Article.java"/>
+			<include name="Entrepot.java"/>
+			<include name="Détaillant.java"/>
+			<include name="Commande.java"/>
+			<include name="Fournisseur.java"/>
+			<include name="Personne.java"/>
+			<include name="Employé.java"/>
+			<include name="Caissier.java"/>
+			<include name="Espèce.java"/>
+			<include name="Chèque.java"/>
+			<include name="Carte_bleue.java"/>
+			<include name="Paiement.java"/>
+			<include name="Transaction.java"/>
+			<include name="Ticket.java"/>
+		</javac>
+	</target>
+</project>
