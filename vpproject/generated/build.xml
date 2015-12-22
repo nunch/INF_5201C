@@ -12,6 +12,10 @@
 	<target depends="init" name="build">
 		<javac srcdir="." destdir="classes" source="1.5" target="1.5" fork="yes">
 			<classpath refid="build.classpath"/>
+			<include name="Espece.java"/>
+			<include name="Cheque.java"/>
+			<include name="Carte_bleue.java"/>
+			<include name="Paiement.java"/>
 			<include name="Cle.java"/>
 			<include name="Caisse.java"/>
 			<include name="Session.java"/>
@@ -26,10 +30,6 @@
 			<include name="Personne.java"/>
 			<include name="Employe.java"/>
 			<include name="Caissier.java"/>
-			<include name="Espece.java"/>
-			<include name="Cheque.java"/>
-			<include name="Carte_bleue.java"/>
-			<include name="Paiement.java"/>
 			<include name="Transaction.java"/>
 			<include name="Ticket.java"/>
 		</javac>
