@@ -5,7 +5,7 @@ public class Caissier extends Employe {
 		throw new UnsupportedOperationException();
 	}
 
-	public void rendreArticle() {
+	public void rendreArticle(String pArticle, String pInt_3) {
 		throw new UnsupportedOperationException();
 	}
 
@@ -17,7 +17,15 @@ public class Caissier extends Employe {
 		throw new UnsupportedOperationException();
 	}
 
-	public void EnleverArticle(String pId) {
+	public void EnleverArticle(String pArticle, String pInt_4) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void payer() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void annulerTransaction() {
 		throw new UnsupportedOperationException();
 	}
 }
