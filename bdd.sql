@@ -6,22 +6,7 @@
 -- Généré le: Lun 19 Octobre 2015 à 15:13
 -- Version du serveur: 5.5.44-0ubuntu0.14.04.1
 -- Version de PHP: 5.5.9-1ubuntu4.13
-drop table if EXISTS `transactionArticles`;
-drop table if EXISTS `transaction`;
-drop table if EXISTS `aisleArticles`;
-drop table if EXISTS `warehouseArticles`;
-drop table if EXISTS `retailerCommands`;
-drop table if EXISTS `commandedArticles`;
-drop table if EXISTS `command`;
-drop table if EXISTS `payment`;
-drop table if EXISTS `cashRegister`;
-drop table if EXISTS `key`;
-drop table if EXISTS `session`;
-drop table if EXISTS `retailer`;
-drop table if EXISTS `employee`;
-drop table if EXISTS `client`;
-drop table if EXISTS `article`;
-drop table if EXISTS `provider`;
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+01:00";
@@ -70,6 +55,13 @@ CREATE TABLE IF NOT EXISTS `retailer` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
+CREATE TABLE IF NOT EXISTS `cashier` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `employee_id` int(10) unsigned NOT NULL,
+  FOREIGN KEY(`employee_id`) REFERENCES `employee`(`id`),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
 CREATE TABLE IF NOT EXISTS `session` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `pseudo` varchar(45) NOT NULL,
@@ -93,7 +85,7 @@ CREATE TABLE IF NOT EXISTS `cashRegister` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 ALTER TABLE `key`
-ADD FOREIGN KEY (`cashRegister_id`) REFERENCES `cashRegister`(`id`);
+ add constraint chashRegisterfk FOREIGN KEY (`cashRegister_id`) REFERENCES `cashRegister`(`id`);
 
 CREATE TABLE IF NOT EXISTS `payment` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
