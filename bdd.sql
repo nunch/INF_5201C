@@ -7,6 +7,9 @@
 -- Version du serveur: 5.5.44-0ubuntu0.14.04.1
 -- Version de PHP: 5.5.9-1ubuntu4.13
 
+DROP DATABASE IF EXISTS `INF-5201C`;
+CREATE DATABASE `INF-5201C`;
+USE `INF-5201C`;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+01:00";
