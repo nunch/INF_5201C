@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class retailer extends Employee {
+public class Retailer extends Employee {
 	public SystemStock aSystemStock;
 	public LinkedList<Command> aCommand = new LinkedList<Command>();
 

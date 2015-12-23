@@ -21,7 +21,7 @@
 			<include name="Article.java"/>
 			<include name="Aisle.java"/>
 			<include name="SystemStock.java"/>
-			<include name="retailer.java"/>
+			<include name="Retailer.java"/>
 			<include name="Command.java"/>
 			<include name="Provider.java"/>
 			<include name="Person.java"/>
