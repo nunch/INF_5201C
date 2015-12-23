@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="UMLProjectPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entity.Client</class>
+    <class>Entity.CommandedArticles</class>
+    <class>Entity.Key</class>
+    <class>Entity.Retailer</class>
+    <class>Entity.AisleArticles</class>
+    <class>Entity.Transaction</class>
+    <class>Entity.WarehouseArticles</class>
+    <class>Entity.Provider</class>
+    <class>Entity.RetailerCommands</class>
+    <class>Entity.Command</class>
+    <class>Entity.Session</class>
+    <class>Entity.TransactionArticles</class>
+    <class>Entity.Payment</class>
+    <class>Entity.Employee</class>
+    <class>Entity.CashRegister</class>
+    <class>Entity.Article</class>
+    <class>Entity.Cashier</class>
+    <properties>
+      <property name="eclipselink.ddl-generation" value="none"/>
+      <property name="eclipselink.logging.level.sql" value="FINE"/>
+      <property name="eclipselink.logging.level" value="FINEST"/>
+      <property name="eclipselink.logging.parameters" value="true"/>
+      <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/INF-5201C?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="shelsea177"/>
+    </properties>
+  </persistence-unit>
+</persistence>
