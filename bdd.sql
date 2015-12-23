@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `article` (
   `name` varchar(45) NOT NULL,
   `stock` int(10) NOT NULL,
   `barcode` varchar(45) NOT NULL,
-  `seuil` int(10) NOT NULL,
+  `threshold` int(10) NOT NULL,
   `price` decimal(6,2) NOT NULL,
   `type` varchar(45) NOT NULL,
   `provider_id` int(10) unsigned NOT NULL,
@@ -81,8 +81,8 @@ CREATE TABLE IF NOT EXISTS `key` (
 CREATE TABLE IF NOT EXISTS `cashRegister` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `session_id` int(10) unsigned,
-  FOREIGN KEY (`session_id`) REFERENCES `session`(`id`),
   `key_id` int(10) unsigned,
+  FOREIGN KEY (`session_id`) REFERENCES `session`(`id`),
   FOREIGN KEY (`key_id`) REFERENCES `key`(`id`),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
