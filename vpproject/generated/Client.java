@@ -1,10 +1,10 @@
-public class Client extends Personne {
+public class Client extends Person {
 
-	public void acheter(String pListeArticle) {
+	public void buy(String pListeArticle) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void rendre(String pListeArticle) {
+	public void return_8(String pListeArticle) {
 		throw new UnsupportedOperationException();
 	}
 }

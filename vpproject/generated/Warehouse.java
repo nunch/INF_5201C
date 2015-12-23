@@ -1,13 +1,13 @@
 import java.util.LinkedList;
 
-public class Rayon {
+public class Warehouse {
 	public LinkedList<Article> aArticle = new LinkedList<Article>();
 
-	public void ajouter(String pArticle, String pInt_13) {
+	public void add(String pArticle, String pInt_17) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void retier(String pArticle, String pInt_14) {
+	public void remove(String pArticle, String pInt_18) {
 		throw new UnsupportedOperationException();
 	}
 }

@@ -1,9 +1,9 @@
 public class Article {
-	private String aNom;
+	private String aName;
 	private String aCodebar;
 	private String aStock;
-	private String aSeuil;
-	private String aPrix;
-	private String aPoids;
-	private String aFournisseur;
+	private String aThreshold;
+	private String aPrice;
+	private String aWeight;
+	private String aProvider;
 }

@@ -1,16 +1,16 @@
 import java.util.LinkedList;
 
-public class Caisse {
+public class CashRegister {
 	private String aCtualSession;
-	public Caissier aCaissier;
+	public Cashier aCashier;
 	public LinkedList<Session> aSession = new LinkedList<Session>();
-	public Cle aCle;
+	public Key aKey;
 
 	public void login(String pSession) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void ouvrirCaisse(String pCle) {
+	public void open(String pKey) {
 		throw new UnsupportedOperationException();
 	}
 }

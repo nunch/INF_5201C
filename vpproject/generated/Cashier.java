@@ -1,31 +1,31 @@
-public class Caissier extends Employe {
+public class Cashier extends Employee {
 	public Transaction aTransaction;
 
-	public void AjouterArticle(String pArticle) {
+	public void addArticle(String pArticle) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void rendreArticle(String pArticle, String pInt_3) {
+	public void returnArticle(String pArticle, String pInt_3) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void imprimerTicket() {
+	public void printTicket() {
 		throw new UnsupportedOperationException();
 	}
 
-	public void demarerTransaction() {
+	public void startTransaction() {
 		throw new UnsupportedOperationException();
 	}
 
-	public void EnleverArticle(String pArticle, String pInt_4) {
+	public void removeArticle(String pArticle, String pInt_4) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void payer() {
+	public void pay() {
 		throw new UnsupportedOperationException();
 	}
 
-	public void annulerTransaction() {
+	public void cancelTransaction() {
 		throw new UnsupportedOperationException();
 	}
 }

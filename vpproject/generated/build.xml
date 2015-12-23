@@ -12,24 +12,24 @@
 	<target depends="init" name="build">
 		<javac srcdir="." destdir="classes" source="1.5" target="1.5" fork="yes">
 			<classpath refid="build.classpath"/>
-			<include name="Espece.java"/>
-			<include name="Cheque.java"/>
-			<include name="Carte_bleue.java"/>
-			<include name="Paiement.java"/>
+			<include name="Cash.java"/>
+			<include name="Check.java"/>
+			<include name="CreditCard.java"/>
+			<include name="Payment.java"/>
 			<include name="Client.java"/>
-			<include name="Entrepot.java"/>
+			<include name="Warehouse.java"/>
 			<include name="Article.java"/>
-			<include name="Rayon.java"/>
+			<include name="Aisle.java"/>
 			<include name="SystemStock.java"/>
-			<include name="Detaillant.java"/>
-			<include name="Commande.java"/>
-			<include name="Fournisseur.java"/>
-			<include name="Personne.java"/>
-			<include name="Employe.java"/>
-			<include name="Cle.java"/>
+			<include name="retailer.java"/>
+			<include name="Command.java"/>
+			<include name="Provider.java"/>
+			<include name="Person.java"/>
+			<include name="Employee.java"/>
+			<include name="Key.java"/>
 			<include name="Session.java"/>
-			<include name="Caisse.java"/>
-			<include name="Caissier.java"/>
+			<include name="CashRegister.java"/>
+			<include name="Cashier.java"/>
 			<include name="Transaction.java"/>
 			<include name="Ticket.java"/>
 		</javac>
